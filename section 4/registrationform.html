@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+<h1>register</h1>
+
+<form>
+  <label for="first">First Name</label>
+  <input name="first" id="first" type="text" placeholder="John" required>
+  <label for="last">Last Name</label>
+  <input name="last" id="last" type="text" placeholder="Smith" required>
+  
+<div>
+  <label for="male">Male</label>
+  <input id="male" name="gender" type="radio" value="male">
+  <label for="female">Female</label>
+  <input id="female" name="gender" type="radio" value="female">
+  <label for="other">Other</label>
+  <input id="other" name="gender" type="radio" value="other">
+</div>
+
+<div>
+  <label>
+  Email:
+    <input name="email" type="email" placeholder="your email" required>
+  </label>
+  <label>
+  Password:
+    <input name="password" type="password" placeholder="password" required>
+  </label>
+</div>
+
+<input type="submit">
+</form>
+  
+</body>
+</html>
