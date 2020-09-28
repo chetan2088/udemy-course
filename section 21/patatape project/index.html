@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="circle.css">
+  <script type="text/javascript" src="file:///C:/Users/91914/Documents/GitHub/udemy-course/section%2021/patatape%20project/paper-full.js"></script>
+  <script type="text/paperscript" canvas="myCanvas">
+    var path = new Path();
+    path.strokeColor = 'red';
+    var start = new Point(100, 100);
+    path.moveTo(start);
+    path.lineTo(start + [ 100, -50 ]);
+    var myCircle = new Path.Circle(new Point(100, 70), 10);
+    myCircle.fillColor = 'black';
+    var myCircle2 = new Path.Circle(new Point(50, 50), 300);
+    myCircle2.fillColor = 'purple';
+  </script>
+  
+</head>
+<body>
+  <canvas id="myCanvas" resize></canvas>
+  
+</body>
+</html>
